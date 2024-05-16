@@ -16,4 +16,14 @@ A script to detect and configure Network UPS Tools (NUT) for USB-connected UPS d
 1. **Download the Script**:
 
    ```sh
-   wget https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/nut-usb-ups-configurator/main/setup_nut_with_dynamic_shutdown.sh
+   wget https://raw.githubusercontent.com/dro159/nut-usb-ups-configurator/main/setup_nut_with_dynamic_shutdown.sh
+   
+2. **Make the Script Executable**:
+
+   ```sh
+   chmod +x setup_nut_with_dynamic_shutdown.sh
+
+3. **Run the Script with Root Privileges**:
+
+   ```sh
+   sudo ./setup_nut_with_dynamic_shutdown.sh
